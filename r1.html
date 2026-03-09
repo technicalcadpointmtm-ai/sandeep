@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flipkart Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Left Side -->
+    <div class="left-panel">
+        <h2>Login</h2>
+        <p>Get access to your Orders, Wishlist and Recommendations</p>
+    </div>
+
+    <!-- Right Side -->
+    <div class="right-panel">
+        <form>
+            <input type="text" placeholder="Enter Email/Mobile number" required>
+            <input type="password" placeholder="Enter Password" required>
+
+            <p class="terms">
+                By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.
+            </p>
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <p class="or">OR</p>
+
+            <button type="button" class="otp-btn">Request OTP</button>
+
+            <p class="create">
+                New to Flipkart? <a href="c1.html">Create an account</a>
+            </p>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 40%;
+    background-color: #2874f0;
+    color: white;
+    padding: 40px;
+}
+
+.left-panel h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.left-panel p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 60%;
+    padding: 40px;
+}
+
+.right-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+.terms {
+    font-size: 12px;
+    color: #878787;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background-color: #fb641b;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.login-btn:hover {
+    background-color: #e55b16;
+}
+
+.or {
+    text-align: center;
+    margin: 10px 0;
+    color: #878787;
+}
+
+.otp-btn {
+    background-color: white;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.otp-btn:hover {
+    background-color: #f0f7ff;
+}
+
+.create {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.create a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>

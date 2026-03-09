@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flipkart Beauty Section</title>
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Flipkart</div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="r1.html">Login</a>
+            <a href="#">Cart</a>
+        </div>
+    </header>
+    <style>
+        
+    </style>
+   
+<title>Navigation Bar</title>
+<style>
+    nav {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    nav ul li a:hover {
+        color: yellow;
+    }
+</style>
+<style>
+    header {
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-box {
+    display: flex;
+    width: 40%;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    width: 20%;
+    border: none;
+    background-color: #ff9f00;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+</style>
+
+
+<nav>
+    <ul>
+        <li><a href="index.html">For You</a></li>
+        <li><a href="hi2.html">Fashinons</a></li>
+        <li><a href="hi3.html">Mobiles</a></li>
+        <li><a href="hi4.html">eletronics</a></li>
+        <li><a href="hi5.html">Furnitures</a></li>
+        <li><a href="hi6.html">beauty</a></li>
+    </ul>
+</nav>
+
+    <header class="header">
+    <h2>Beauty Products</h2>
+</header>
+
+<section class="categories">
+    <div class="category">Makeup</div>
+    <div class="category">Skincare</div>
+    <div class="category">Haircare</div>
+    <div class="category">Fragrances</div>
+    <div class="category">Personal Care</div>
+</section>
+
+<section class="products">
+
+    <div class="card">
+        <img src="https://i.pinimg.com/1200x/90/ed/6c/90ed6c6be14ad0ebdb8c0fa03db9bdc8.jpg" alt="Product">
+        <h4>Lipstick Matte Finish</h4>
+        <p class="price">₹299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/c6/4c/b6/c64cb632db7f82cb6d21e423b5fd7455.jpg" alt="Product">
+        <h4>Face Serum Vitamin C</h4>
+        <p class="price">₹499</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/3e/f3/c7/3ef3c7bb961df40da3f0e312d5aa3964.jpg" alt="Product">
+        <h4>Shampoo Anti-Dandruff</h4>
+        <p class="price">₹349</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/e8/36/ec/e836ecc573fdbc86d4378d431d68bd52.jpg" alt="Product">
+        <h4>Perfume Floral</h4>
+        <p class="price">₹899</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+/* Header */
+.header {
+    background-color: #2874f0;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.category {
+    padding: 10px 20px;
+    background-color: #f0f7ff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category:hover {
+    background-color: #2874f0;
+    color: white;
+}
+
+/* Product Section */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.price {
+    color: #388e3c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    background-color: #e55b16;
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flipkart Beauty Section</title>
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body>
+    
+
+<header class="header">
+    <h2>Beauty Products</h2>
+</header>
+
+<section class="categories">
+    <div class="category">Makeup</div>
+    <div class="category">Skincare</div>
+    <div class="category">Haircare</div>
+    <div class="category">Fragrances</div>
+    <div class="category">Personal Care</div>
+</section>
+
+<section class="products">
+
+    <div class="card">
+        <img src="https://i.pinimg.com/1200x/90/ed/6c/90ed6c6be14ad0ebdb8c0fa03db9bdc8.jpg" alt="Product">
+        <h4>Lipstick Matte Finish</h4>
+        <p class="price">₹299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/c6/4c/b6/c64cb632db7f82cb6d21e423b5fd7455.jpg" alt="Product">
+        <h4>Face Serum Vitamin C</h4>
+        <p class="price">₹499</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/3e/f3/c7/3ef3c7bb961df40da3f0e312d5aa3964.jpg" alt="Product">
+        <h4>Shampoo Anti-Dandruff</h4>
+        <p class="price">₹349</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/e8/36/ec/e836ecc573fdbc86d4378d431d68bd52.jpg" alt="Product">
+        <h4>Perfume Floral</h4>
+        <p class="price">₹899</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+</body>
+</html>
+sty
